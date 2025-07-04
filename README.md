@@ -1,5 +1,6 @@
 🌐 Secure Azure Windows VM Provisioning using Terraform
-This project automates the deployment of a secure Windows Server VM in Microsoft Azure using Infrastructure as Code (IaC). The setup includes a custom Virtual Network Interface, Network Security Group, and optional public IP to enable Remote Desktop access.
+
+- This project automates the deployment of a secure Windows Server VM in Microsoft Azure using Infrastructure as Code (IaC). The setup includes a custom Virtual Network Interface, Network Security Group, and optional public IP to enable Remote Desktop access.
 
 🧱 Prerequisites
 - ☁️ Azure subscription
