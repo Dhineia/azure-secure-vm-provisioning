@@ -17,6 +17,14 @@
 git clone https://github.com/your-username/azure-secure-vm-provisioning.git
 cd azure-secure-vm-provisioning
 
+Create storage account:
+$ az storage account create \
+  --name diaggeraldinestorage \
+  --resource-group azure-provisioning \
+  --location eastus \
+  --sku Standard_LRS \
+  --kind StorageV2
+
 - Update Variables Modify terraform.tfvars with your desired values:
 admin_username = "geraldineadmin"
 admin_password = "P@ssw0rd1234!"
