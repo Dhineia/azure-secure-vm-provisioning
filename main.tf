@@ -1,8 +1,8 @@
 provider "azurerm" {
   features {}
 
-  subscription_id = "7731a4d7-8fd3-4683-96a7-5d68a2adb50e"
-  tenant_id       = "44f09820-9ec4-45ec-8dbf-4f1f2caabc88"
+  subscription_id = "<your subscription>"
+  tenant_id       = "<your subscription>"
 }
 
 resource "azurerm_network_interface" "vm_nic" {
